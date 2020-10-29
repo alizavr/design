@@ -331,6 +331,7 @@ footer {
   padding-bottom: 101px;
   background-color: #141414;
   color: #bcbcbc;
+  font-size: 15px;
 }
 
 footer .social a {
@@ -341,5 +342,36 @@ footer .social a {
 
 footer ul {
   list-style: none;
+  padding: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: #bcbcbc;
+}
+
+footer .piroll {
+  color: #ffffff;
+}
+
+footer .facebook:hover {
+  color: #3b5998;
+}
+
+footer .twitter:hover {
+  color: #00acee;
+}
+
+footer .instagram:hover {
+  color: #3f729b;
+}
+
+footer .dribbble:hover {
+  color: #ea4c89;
 }
 /*# sourceMappingURL=style.css.map */

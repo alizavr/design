@@ -300,6 +300,7 @@ footer{
     padding-bottom: 101px;
     background-color: #141414;
     color: #bcbcbc;
+    font-size: 15px;
     .social{
         a{
             text-decoration: none;
@@ -309,5 +310,33 @@ footer{
     }
     ul{
         list-style: none;
+        padding: 0;
+        li{
+            a{
+                text-decoration: none;
+                color:#bcbcbc;
+                &:hover{
+                    text-decoration: none;
+                    color: #bcbcbc;
+                }
+            }
+            
+            
+        }
+    }
+    .piroll{
+        color: #ffffff;
+    }
+    .facebook:hover{
+        color: #3b5998;
+    }
+    .twitter:hover{
+        color: #00acee;
+    }
+    .instagram:hover{
+        color: #3f729b;
+    }
+    .dribbble:hover{
+        color: #ea4c89;
     }
 }
