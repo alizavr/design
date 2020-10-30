@@ -1,5 +1,10 @@
 @media only screen and (max-width: 1024px) {
-
+.skills__info li{
+    padding-left: 15px;
+}
+.skills__info h2{
+    padding-left: 15px;
+}
 }
 @media only screen and (max-width: 992px) {
 
@@ -8,6 +13,21 @@
    .social{
             display: inline;
         
+    }
+    .skills__block{
+        display: none;
+    }
+    .skills__info{
+     width: 100%!important;
+    }
+    .skills__info li{
+        padding-left: 0;
+    }
+    .skills__info h2{
+        padding-left: 0;
+    }
+    .pairs img{
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width: 420px) {
