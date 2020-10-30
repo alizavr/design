@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/media-queries.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -31,25 +32,25 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" 
-                    href="#">ABOUT
+                    href="#about">ABOUT
                     </a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" 
-                    href="#">WORK
+                    href="#work">WORK
                     </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">PROCESS</a>
+                    <a class="nav-link" href="#process">PROCESS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">SERVICES</a>
+                    <a class="nav-link" href="#services">SERVICES</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">TESTIMONIALS</a>
+                    <a class="nav-link" href="#testi">TESTIMONIALS</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">CONTACT</a>
+                    <a class="nav-link" href="#contact">CONTACT</a>
                   </li>
               </ul>
             </div>
@@ -72,7 +73,10 @@
 </div>
 </div>
     </section>
-    <section class="about">
+
+<!-- about -->
+
+    <section class="about" id="about">
 <div class="container">
 <div class="row text-center">
   <div class="col-12">
@@ -88,7 +92,28 @@
 </div>
     </section>
 
+    <!-- skills -->
 
+    <section class="skills">
+<div class="skills__info">
+  <div class="wrapper">
+    <h2 class="topic">Professional Skills</h2>
+    <li>
+      <h3>UI/UX Design    75%</h3> <span class="bar"> <span class="ui"></span> </span>
+    </li>
+    <li>
+      <h3>web development    90%</h3> <span class="bar"> <span class="web"></span> </span>
+    </li>
+    <li>
+      <h3>marketing    65%</h3> <span class="bar"> <span class="marketing"></span> </span>
+    </li>
+  </div>
+</div>
+<div class="skills__block">
+</div>
+    </section>
+
+<!-- advantage -->
 
   <section class="advantage">
     <div class="container">
@@ -125,7 +150,10 @@
 </div>
     </div>
   </section>
-  <section class="view">
+
+  <!-- view -->
+
+  <section class="view" id="work">
     <div class="container-fluid">
 <div class="row">
   <div class="col-md-3 view--liver">
@@ -181,7 +209,11 @@
 </div>
     </div>
   </section>
-  <section class="process">
+
+
+<!-- process -->
+
+  <section class="process" id="process">
     <div class="container">
 <div class="row text-center">
   <div class="col-12">
@@ -203,7 +235,10 @@
 </div>
     </div>
   </section>
-    <section class="services">
+
+<!-- services -->
+
+    <section class="services" id="services">
       <div class="container">
         <div class="row">
           <div class="col-md-3 text-center">
@@ -257,7 +292,10 @@
         </div>
       </div>
     </section>
-    <section class="testimonials">
+
+<!-- testimonials -->
+
+    <section class="testimonials" id="testi">
 <div class="container">
   <div class="row text-center d-flex justify-content-center">
     <div class="col-md-8">
@@ -291,28 +329,34 @@
   </div>
 </div>
     </section>
+ 
+   <!-- pairs -->
+
 <section class="pairs">
   <div class="container">
     <div class="row text-center">
-      <div class="col">
+      <div class="col-sm-6 col-md">
         <img src="images/pairs1_03.png" alt="">
       </div>
-      <div class="col">
+      <div class="col-sm-6 col-md">
         <img src="images/pairs2_06.png" alt="">
       </div>
-      <div class="col">
+      <div class=" col-sm-6 col-md">
         <img src="images/pairs3_03.png" alt="">
       </div>
-      <div class="col">
+      <div class="col-sm-6 col-md">
         <img src="images/pairs4_09.png" alt="">
       </div>
-      <div class="col">
+      <div class="col-sm-6 col-md">
         <img src="images/pairs5_11.png" alt="">
       </div>
     </div>
   </div>
 
 </section>
+
+<!-- project -->
+
 <section class="project">
 <div class="container">
   <div class="row text-center">
@@ -343,7 +387,10 @@
   </div>
 </div>
 </section>
-<footer>
+
+<!-- footer -->
+
+<footer id="contact">
   <div class="container">
     <div class="row">
       <div class="col-md col-sm-6">
@@ -356,55 +403,39 @@
         <p>hello@pirolltheme.com <br>
           +44 987 065 908 </p>
       </div>
-      <div class="col-md col-sm-6">
+      <div class="col-md col-sm-6 text-right">
         <ul>
           <li> 
-             <a href="#">
-            Projects
-          </a>
+            <a href="#">Projects</a>
             </li>
             <li>
-              <a href="#">
-                About
-              </a>
+              <a href="#"> About </a>
             </li>
             <li>
-              <a href="#">
-                Services
-              </a>
+              <a href="#">Services</a>
             </li>
             <li>
-              <a href="#">
-                Carreer
-              </a>
+              <a href="#">Carreer</a>
             </li>
         </ul>
       </div>
       <div class="col-md col-sm-6">
         <ul>
           <li>
-            <a href="#">
-              News
-            </a>
+            <a href="#">New</a>
             </li>
             <li>
-              <a href="#">
-                Events
-              </a>
+              <a href="#">Events</a>
             </li>
             <li>
-              <a href="#">
-                Contact
-              </a>
+              <a href="#">Contact</a>
             </li>
             <li>
-              <a href="#">
-                Legals
-              </a>
+              <a href="#">Legals</a>
             </li>
         </ul>
       </div>
-      <div class="col-md col-sm-12 social">
+      <div class="col-md col-xs-12 social">
          <a href="#" class="facebook">Facebook</a>
           <a href="#" class="twitter">Twitter</a>
           <a href="#" class="instagram">Instagram</a>
