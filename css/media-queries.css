@@ -10,10 +10,10 @@
 
 }
 @media only screen and (max-width: 767px) {
-   .social{
-            display: inline;
-        
-    }
+   .about, .skills__info, .advantage, .view, .process, .services, .testimonials, .pairs, .project, footer{
+       padding-top: 40px!important;
+       padding-bottom: 40px!important;
+   }
     .skills__block{
         display: none;
     }
@@ -28,6 +28,13 @@
     }
     .pairs img{
         margin-bottom: 20px;
+    }
+    .social a{
+    display: inline!important;
+    margin-right: 50px;
+    }
+    .view__work--img{
+        display: none;
     }
 }
 @media only screen and (max-width: 420px) {
