@@ -1,51 +1,62 @@
 @media only screen and (max-width: 1024px) {
-.skills__info li{
+  .skills__info li {
     padding-left: 15px;
-}
-.skills__info h2{
+  }
+  .skills__info h2 {
     padding-left: 15px;
-}
+  }
 }
 @media only screen and (max-width: 992px) {
-
 }
 @media only screen and (max-width: 767px) {
-   .about, .skills__info, .advantage, .view, .process, .services, .testimonials, .pairs, .project, footer{
-       padding-top: 40px!important;
-       padding-bottom: 40px!important;
-   }
-    .skills__block{
-        display: none;
-    }
-    .skills__info{
-     width: 100%!important;
-    }
-    .skills__info li{
-        padding-left: 0;
-    }
-    .skills__info h2{
-        padding-left: 0;
-    }
-    .pairs img{
-        margin-bottom: 20px;
-    }
-    .social a{
-    display: inline!important;
-    margin-right: 50px;
-    }
-    .view__work--img{
-        display: none;
-    }
+  .about,
+  .skills__info,
+  .advantage,
+  .process,
+  .services,
+  .testimonials,
+  .pairs,
+  .project,
+  footer {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+  .view {
+    padding-bottom: 0;
+    padding-top: 40px;
+  }
+  .skills__block {
+    display: none;
+  }
+  .skills__info {
+    width: 100% !important;
+  }
+
+  .pairs img {
+    margin-bottom: 20px;
+  }
+  .social a {
+    display: inline !important;
+    margin-right: 40px;
+  }
+  .view__work--img {
+    display: none;
+  }
+  .testimonials__author {
+    margin-bottom: 40px !important;
+  }
+  .portfolio__button {
+    padding: 20px 0 !important;
+  }
 }
 @media only screen and (max-width: 420px) {
-
+  .social a {
+    display: block !important;
+  }
 }
 @media only screen and (max-width: 375px) {
-
 }
 @media only screen and (max-width: 360px) {
-
 }
 @media only screen and (max-width: 320px) {
-
 }
